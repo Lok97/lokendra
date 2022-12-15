@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+    header {
+        padding: 16px 78px;
+        background-color: #fff;
+    }
+
+    #logo {
+        width: 130px;
+        font-size: 32px;
+        color: #0084ff;
+        width: 100%;
+        height: 100%;
+        margin-top: 2px;
+        padding: 10px 2px;
+        font-family: Raleway, sans-serif;
+    }
+
+    #stories {
+        margin: 0;
+        font-family: Raleway, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+
+    }
+
+    #category {
+        display: block;
+        border: none;
+        text-align: right;
+        background-color: transparent;
+        font-family: Open Sans, sans-serif;
+    }
+
+    option {
+        list-style-type: square;
+        background-color: thistle;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-left: 5px;
+        float: left;
+        width: 32%;
+    }
+
+    .container::after {
+        padding-top: 4px;
+        float: left;
+    }
+
+    img {
+        width: 310px;
+    }
+</style>
+
+<body>
+    <header style="background-color: lightgray;">
+        <section>
+            <div>
+                <h1 id="logo">EdYoda</h1>
+                <p id="stories">Stories</p>
+            </div>
+
+            <div>
+                <p id="category">
+                    <label for="Categories">Explore Categories :</label>
+                    <select style="padding-top: 0;padding-left: 10px;" name="Categories">
+                        <option value="">select</option>
+                        <option value="all">all</option>
+                        <option value="artificial intelligence">artificial intelligence</option>
+                        <option value="Cloud Computing">Cloud Computing</option>
+                        <option value="DevOps">DevOps</option>
+                        <option value="Programming Languages">Programming Languages</option>
+                        <option value="Mobile Application Development">Mobile Application Development</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <section>
+            <h1 style="font-weight: 600px;color: #000;margin: 0;">Trending post</h1>
+            <p><span class="glyphicon glyphicon-filter" style="color: #0084ff; margin-left: 10px;"></span>Filter By
+                Category
+            </p><br>
+            <section>
+                <div class="card">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png"
+                        alt="Machine learning"
+                        style="width:33.3%%; height: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: 15px;">
+                    <div class="container">
+                        <h4 style="color:red;margin-left: 20px;"><b>Machine learning</b></h4>
+                        <p
+                            style="font-size: 14px; font-weight: 400; line-height: 1.43;color: rgba(0,0,0,.6);margin: 2px;width: 33.3%; padding: 10px 24px;">
+                            Machine learning (ML) is a type of artificial intelligence (AI) that allows software
+                            applications to
+                            become more accurate at predicting outcomes without being explicitly programmed to do so.
+                            Machine
+                            learning algorithms use historical data as input to predict new output values popular uses
+                            include fraud detection, spam filtering, malware threat detection,.</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" alt="Cloud Computing"
+                        style="width:33.3%%; height: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: 15px;">
+                    <div class="container">
+                        <h4 style="color:red;margin-left: 20px;"><b>Cloud Computing</b></h4>
+                        <p
+                            style="font-size: 14px; font-weight: 400; line-height: 1.43;color: rgba(0,0,0,.6);margin: 2px;width:33.3%; padding: 10px 24px;">
+                            Cloud computing is the on-demand delivery of IT resources over the Internet with
+                            pay-as-you-go
+                            pricing. Instead of buying, owning, and maintaining physical data centers and servers, you
+                            can
+                            access technology services, such as computing power, storage, and databases, on an as-needed
+                            basis
+                            from a cloud provider like Amazon Web Services (AWS).</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png"
+                        alt="Avatar"
+                        style="width:33.3%%; height: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: 15px;">
+                    <div class="container">
+                        <h4 style="color:red;margin-left: 20px;"><b>Machine learning</b></h4>
+                        <p
+                            style="font-size: 14px; font-weight: 400; line-height: 1.43;color: rgba(0,0,0,.6);margin: 2px;width: 33.3%;  padding: 10px 24px;">
+                            Machine learning (ML) is a type of artificial intelligence (AI) that allows software
+                            applications to
+                            become more accurate at predicting outcomes without being explicitly programmed to do so.
+                            Machine
+                            learning algorithms use historical data as input to predict new output values.
+                            Recommendation engines are a common use case for machine learning.</p>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <section style="background-color:#172146; padding: 80px 16%;margin-top: 40em;">
+            <address
+                style="color:rgb(252, 247, 247); font-weight: lighter;font-size: small;text-align: right;margin-right:5%;">
+                
+                <h4>Contact us</h4>1st Floor,
+                Gopalan Millennium Tower, <br>
+                ITPL Main Road, Brookefield, <br>
+                Bengaluru, Karnataka-560037, <br>
+                India <br><a href="mailto:hello@edyod.com">Hello@edyoda.com</a>
+            </address>
+            <div>
+                <p style="text-align: center;color: white;"> &#169;-2022</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
